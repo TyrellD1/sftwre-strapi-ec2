@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card_as",
+  "info": {
+    "singularName": "card-a",
+    "pluralName": "card-as",
+    "displayName": "CardA",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "LinkUrl": {
+      "type": "string"
+    },
+    "LinkText": {
+      "type": "string"
+    }
+  }
+}

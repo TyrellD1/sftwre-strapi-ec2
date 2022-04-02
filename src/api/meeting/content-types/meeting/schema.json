@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meetings",
+  "info": {
+    "singularName": "meeting",
+    "pluralName": "meetings",
+    "displayName": "Meeting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Date": {
+      "type": "string"
+    },
+    "Time": {
+      "type": "string"
+    },
+    "ShowedUp": {
+      "type": "boolean"
+    },
+    "EndedInSale": {
+      "type": "boolean"
+    },
+    "SaleAmount": {
+      "type": "string"
+    },
+    "Passed": {
+      "type": "boolean",
+      "default": false
+    },
+    "QuestionAnswers": {
+      "type": "text"
+    },
+    "Service": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    }
+  }
+}

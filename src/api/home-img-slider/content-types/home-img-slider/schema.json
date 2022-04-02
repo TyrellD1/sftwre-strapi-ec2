@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_img_sliders",
+  "info": {
+    "singularName": "home-img-slider",
+    "pluralName": "home-img-sliders",
+    "displayName": "HomeSliderImg",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "SubHeading": {
+      "type": "text"
+    },
+    "TextOverClass": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "leftA",
+        "leftB"
+      ],
+      "required": true,
+      "default": "center"
+    },
+    "BtnTxt": {
+      "type": "string"
+    },
+    "BtnLink": {
+      "type": "string"
+    }
+  }
+}

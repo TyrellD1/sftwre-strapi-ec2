@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feature_list_items",
+  "info": {
+    "singularName": "feature-list-item",
+    "pluralName": "feature-list-items",
+    "displayName": "Feature List Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Heading": {
+      "type": "string"
+    },
+    "SubHeading": {
+      "type": "text"
+    }
+  }
+}

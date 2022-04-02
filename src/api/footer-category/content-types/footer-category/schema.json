@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_categories",
+  "info": {
+    "singularName": "footer-category",
+    "pluralName": "footer-categories",
+    "displayName": "FooterLink",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Links": {
+      "type": "json"
+    }
+  }
+}

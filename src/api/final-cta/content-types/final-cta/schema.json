@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "final_ctas",
+  "info": {
+    "singularName": "final-cta",
+    "pluralName": "final-ctas",
+    "displayName": "Final Cta"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "btnTxt": {
+      "type": "string"
+    }
+  }
+}

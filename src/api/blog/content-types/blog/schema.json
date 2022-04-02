@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Body": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "SubTitle": {
+      "type": "text",
+      "required": true
+    },
+    "Img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "TitleColor": {
+      "type": "enumeration",
+      "enum": [
+        "WhiteHEXffffff",
+        "BlackHEX000000"
+      ],
+      "default": "WhiteHEXffffff"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}
