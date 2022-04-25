@@ -43,6 +43,15 @@
     },
     "BtnLink": {
       "type": "string"
+    },
+    "MobileImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
