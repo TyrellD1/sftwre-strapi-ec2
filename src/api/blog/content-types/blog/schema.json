@@ -50,6 +50,22 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "AuthorImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "AuthorName": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "ReadTime": {
+      "type": "integer"
     }
   }
 }
